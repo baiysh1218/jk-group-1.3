@@ -1,0 +1,48 @@
+.our_team_page_wrapper {
+  margin: 80px auto 80px;
+}
+
+.our_team_page_img {
+  height: 400px;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10%;
+  margin: 0 auto 40px;
+  width: 90%;
+}
+
+.our_team_page_img img {
+  margin-top: -10%;
+  width: 100%;
+}
+
+.our_team_page_button_wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.our_team_page_button {
+  width: 455px;
+  background-color: #1d1d1be1;
+  color: white;
+  margin: 3px;
+  padding: 25px;
+  font-size: 26px;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  height: 150px;
+  border: none;
+}
+.our_team_page_button:hover {
+  background-color: #f1f2f29f;
+  color: black;
+  cursor: pointer;
+  border: none;
+}

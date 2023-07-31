@@ -1,0 +1,62 @@
+.card_animation {
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+  background-color: red;
+  width: 263px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.card_animation img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card_animation.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.container_card_animation {
+  width: 90%;
+  margin: 5% auto 0;
+  height: 650px;
+}
+
+.card_animation_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_content_wrapper {
+  height: 100%;
+  width: 38%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.card_content_wrapper div:nth-child(1) {
+  position: absolute;
+  background-color: red;
+}
+
+.card_content_wrapper div:nth-child(2) {
+  position: absolute;
+  left: 25%;
+  top: 80px;
+  background-color: green;
+}
+
+.card_content_wrapper div:nth-child(3) {
+  position: absolute;
+  left: 50%;
+  top: 160px;
+  background-color: blue;
+}
+
+.card_animation_content {
+  display: flex;
+  flex-direction: column;
+}

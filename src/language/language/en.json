@@ -1,0 +1,80 @@
+{
+  "language": "en",
+
+  "dropDownContent": [
+    {
+      "title": "About us",
+      "content": {
+        "contentTitle": [{ "title": "About us", "path": "/about", "id": 1 }],
+        "contentItem": [
+          [
+            { "item": "Company history", "path": "/about/history" },
+            { "item": "Mission values", "path": "/about/mission-values" },
+            { "item": "Partners", "path": "/about/partners" }
+          ],
+          [
+            {
+              "item": "3D design (BIM)",
+              "path": "/project/section",
+              "id": 1,
+              "const": "3D проектирование (BIM)"
+            },
+            {
+              "item": "Production and installation of ventilation equipment",
+              "path": "/project/section",
+              "id": 2,
+              "const": "Производство и монтаж вентиляционного оборудования"
+            },
+            {
+              "item": "TPS Training Center",
+              "path": "/project/section",
+              "id": 3,
+              "const": "Учебный центр по стандартам TPS"
+            }
+          ],
+          [
+            {
+              "item": "Construction",
+              "path": "/team/section",
+              "const": "Строительство"
+            }
+          ],
+          [
+            {
+              "item": "International logistics",
+              "path": "/team/section",
+              "const": "Международная логистика",
+              "id": 4
+            }
+          ],
+          [
+            {
+              "item": "High-precision metalworking",
+              "path": "/team/section",
+              "const": "Высокоточная металлообработка"
+            }
+          ]
+        ]
+      },
+      "id": 1
+    }
+  ],
+  "navbar": {
+    "projects": "Projects",
+    "team": "Team",
+    "news": "News",
+    "career": "Career",
+    "search": "Search",
+    "contacts": "Contacts",
+    "searchContent": "Loading..."
+  },
+  "statistics": {
+    "sub_title": "Uniqueness and manufacturability"
+  },
+  "connect": {
+    "name": "Name",
+    "email": "Email",
+    "question": "Question",
+    "destinations": "select destinations"
+  }
+}

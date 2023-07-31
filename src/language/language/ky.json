@@ -1,0 +1,82 @@
+{
+  "language": "ky",
+
+  "dropDownContent": [
+    {
+      "title": "Биз жонундо",
+      "content": {
+        "contentTitle": [{ "title": "Биз жонундо", "path": "/about", "id": 1 }],
+        "contentItem": [
+          [
+            { "item": "Компаниянын тарыхы", "path": "/about/history" },
+            { "item": "Миссия баалуулуктары", "path": "/about/mission-values" },
+            { "item": "Партнерлор", "path": "/about/partners" }
+          ],
+          [
+            {
+              "item": "3D дизайн (BIM)",
+              "path": "/project/section",
+              "const": "3D проектирование (BIM)",
+              "id": 1
+            },
+            {
+              "item": "Вентиляциялык жабдууларды чыгаруу жана орнотуу",
+              "path": "/project/section",
+              "const": "Производство и монтаж вентиляционного оборудования",
+              "id": 2
+            },
+            {
+              "item": "TPS окуу борбору",
+              "path": "/project/section",
+              "const": "Учебный центр по стандартам TPS",
+
+              "id": 3
+            }
+          ],
+          [
+            {
+              "item": "Курулуш",
+              "path": "/team/section",
+              "const": "Строительство"
+            }
+          ],
+          [
+            {
+              "item": "Эл аралык логистика",
+              "path": "/team/section",
+              "const": "Международная логистика",
+
+              "id": 4
+            }
+          ],
+          [
+            {
+              "item": "Жогорку тактыктагы металл иштетүү",
+              "const": "Высокоточная металлообработка",
+              "path": "/team/section"
+            }
+          ]
+        ]
+      },
+      "id": 1
+    }
+  ],
+  "navbar": {
+    "projects": "Проектер",
+    "team": "Команда",
+    "news": "Жанылыктар",
+    "career": "Карьера",
+    "search": "Издоо",
+    "contacts": "Контактар",
+    "searchContent": "Жуктоо..."
+  },
+  "statistics": {
+    "sub_title": "Уникалдуулугу жана өндүрүмдүүлүгү"
+  },
+  "connect": {
+    "name": "Аты жону",
+    "email": "Электрондук почта",
+    "question": "Суроо",
+    "destinations": "багыттарды тандоо"
+  }
+}

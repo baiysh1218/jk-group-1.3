@@ -1,0 +1,76 @@
+body {
+  background-color: #f1f2f2;
+}
+#root {
+  background-color: #f2f2f2;
+}
+html {
+  background-color: #f2f2f2;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: RaceSport;
+  src: url(./assets//fonts/Race\ Sport.ttf);
+  unicode-range: U+0020-007F; /* Диапазон символов латиницы */
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Bold.ttf);
+  font-weight: bold;
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Extrabold.ttf);
+  font-weight: 800;
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Heavy.ttf);
+  font-weight: 900;
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Regular.ttf);
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Semibold.ttf);
+  font-weight: 600;
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Thin.ttf);
+  font-weight: 200;
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-UltraLight.ttf);
+  font-weight: 100;
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+
+.en {
+  font-family: RaceSport;
+}
+
+.ru {
+  font-family: Gilroy;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+}
+
+img {
+  image-rendering: optimizeQuality;
+}

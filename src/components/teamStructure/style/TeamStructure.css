@@ -1,0 +1,72 @@
+.team_structure_wrapper {
+  width: 90%;
+  margin: auto;
+  height: 1245px;
+  margin-bottom: 500px;
+}
+
+.team_structure_wrapper h2 {
+  margin-bottom: 7%;
+}
+.team_structure_card {
+  width: 350px;
+}
+
+.team_structure_card img {
+  width: 350px;
+}
+.img_container {
+  width: 350px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+.img_container img {
+  position: absolute;
+  top: -20%;
+}
+
+.team_structure_card_content {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  width: 350px;
+  font-size: 1.3rem;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  top: -4px;
+}
+
+.team_structure_card_content_i {
+  position: absolute;
+  left: 32%;
+}
+
+.team_structure_card_content button {
+  width: 35px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 26px;
+  position: absolute;
+  right: 30px;
+}
+.team_structure_item_wrapper {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.dropdown_main_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+hr {
+  border: 1.5px solid black;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+}

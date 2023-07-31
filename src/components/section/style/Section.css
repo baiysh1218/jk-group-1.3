@@ -1,0 +1,27 @@
+.section_head_content {
+  width: 90%;
+  height: 160px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section_head_content h2 {
+  font-size: 34px;
+}
+
+.section_head_content p {
+  font-size: 20px;
+}
+.carousel_section .mySwiper {
+  margin-bottom: 0;
+}
+
+#carousel_company_swiper {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 150px;
+}

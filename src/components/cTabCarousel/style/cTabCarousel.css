@@ -1,0 +1,23 @@
+.c-tabs-nav .is-active {
+  background-color: transparent;
+}
+.swiper_content img {
+  object-position: center;
+  height: 598px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: -3px;
+  left: 0;
+  filter: brightness(80%);
+}
+
+.swiper_content h3 {
+  color: white;
+  font-size: 52px;
+}
+
+.swiper_content p p {
+  color: white;
+  font-size: 23px;
+}

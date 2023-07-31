@@ -1,0 +1,77 @@
+.company_main_wrapper {
+  width: 90%;
+  height: 100vh;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.company_content_text_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 50px;
+}
+
+.company_main_card {
+  position: relative;
+  width: 36%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.company_main_card_item {
+  background-color: red;
+  width: 250px;
+  height: 380px;
+  position: absolute;
+  background-size: cover;
+}
+
+.company_main_card .company_main_card_item:nth-child(1) {
+  animation: animationCard1 0.8s ease-in-out;
+}
+
+@keyframes animationCard1 {
+  0% {
+    left: 800px;
+  }
+  100% {
+    left: 50px;
+  }
+}
+
+.company_main_card .company_main_card_item:nth-child(2) {
+  top: 80px;
+  left: 150px;
+  background-color: green;
+  z-index: 2;
+  animation: animationCard2 0.5s ease-in-out;
+}
+@keyframes animationCard2 {
+  0% {
+    left: 800px;
+  }
+  100% {
+    left: 150px;
+  }
+}
+
+.company_main_card .company_main_card_item:nth-child(3) {
+  top: 180px;
+  left: 280px;
+  background-color: blue;
+  z-index: 3;
+  animation: animationCard 0.3s ease-in-out;
+}
+
+@keyframes animationCard3 {
+  0% {
+    left: 800px;
+  }
+  100% {
+    left: 280px;
+  }
+}

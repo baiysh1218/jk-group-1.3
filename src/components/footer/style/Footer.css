@@ -1,0 +1,74 @@
+/* !footer start */
+
+.footer {
+  background-color: #1d1d1b;
+  padding: 100px 50px 0 50px;
+  color: white;
+  position: relative;
+  margin-top: 100px;
+}
+.footer-top-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-top-box-text {
+  width: 30%;
+  font-size: 17px;
+}
+.footer-top-box-text p {
+  line-height: 30px;
+}
+.footer-box-card {
+  width: 22%;
+  padding: 0 1% 5% 7%;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+.footer-box-card h3 {
+  margin-top: 0;
+  margin-bottom: 8%;
+  font-size: 30px;
+}
+
+.footer a {
+  color: white;
+  margin: 3% 0;
+  font-size: 17px;
+  transition: 0.2s;
+}
+.footer a:hover {
+  color: #a4a4a6;
+}
+.footer-bottom-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom-box ul {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.footer-bottom-box li {
+  margin: 2%;
+  white-space: nowrap;
+  font-size: 15px;
+  color: #e2e0da;
+  transition: 0.2s;
+}
+#btn-to-top-text {
+  border: 1px white solid;
+  padding: 1% 2%;
+  margin: 0;
+  align-self: flex-end;
+}
+.footer-bottom-box li:hover {
+  color: white;
+  cursor: pointer;
+}
+.footer-green-btn {
+  display: none;
+}
+/* !foooter end */
